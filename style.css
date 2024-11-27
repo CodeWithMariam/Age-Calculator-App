@@ -242,7 +242,7 @@
 }
 }
 @media (max-width: 380px) {
-    .input-box input::-webkit-calendar-picker-indicator{
+/*     .input-box input::-webkit-calendar-picker-indicator{
     top: 10px;
     left: 190px;
     right: 0px;
@@ -253,7 +253,7 @@
     background-position: calc(100%-10px);
     background-size: 30px;
     cursor: pointer;
-}
+} */
     .calculator {
     width: 100%;
     max-width: 500px;
