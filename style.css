@@ -72,3 +72,17 @@
 #result span{
     color: #ffff76;
 }
+@media (max-width: 360px) {
+    .input-box input::-webkit-calendar-picker-indicator{
+    top: 10px;
+    left: 180px;
+    right: 0px;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100%-10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+}
