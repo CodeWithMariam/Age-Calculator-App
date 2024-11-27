@@ -75,7 +75,7 @@
 @media (max-width: 360px) {
     .input-box input::-webkit-calendar-picker-indicator{
     top: 10px;
-    left: 180px;
+    left: 200px;
     right: 0px;
     bottom: 0;
     width: auto;
@@ -84,5 +84,32 @@
     background-position: calc(100%-10px);
     background-size: 30px;
     cursor: pointer;
+}
+    .calculator {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+    .input-box button {
+    background: #ffff76;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+    .input-box {
+    margin: 40px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+    .calculator h1 {
+    font-size: 42px;
 }
 }
